@@ -3,6 +3,7 @@ export const FETCHED = "FETCHED";
 export const FETCHING = "FETCHING";
 export const POSTING = "POSTING";
 export const POSTED = "POSTED";
+export const ERROR = "ERROR";
 
 export const fetchSmurfs = () => {
   const request = axios.get(`http://localhost:3333/smurfs`);
